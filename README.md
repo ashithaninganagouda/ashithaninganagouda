@@ -59,7 +59,7 @@ Detailed Description:
    In conclusion, this sales analysis project provided valuable insights into customer behavior and preferences, enabling data-driven decision-making to optimize product strategy and 
    marketing efforts. By leveraging advanced analytics techniques, we can enhance customer engagement, drive sales growth, and achieve sustainable business success.
 
-
+---
 **PROJECT 2**
 
 **Data-Driven Customer Segmentation for Targeted Marketing Using K-Means Clustering**
