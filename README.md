@@ -1,8 +1,6 @@
-# Data Science Portfolio
+# Data Analytics Portfolio
 
-Welcome to my GitHub repository. As an aspiring data scientist, I am dedicated to exploring and leveraging data to uncover meaningful insights
-and drive decision-making. This portfolio highlights my projects and learning journey in the fields of data analysis, machine learning, and statistical modeling. My work primarily involves Python, R, and various data science libraries and tools. I am committed to continuous learning
-and applying data-driven approaches to solve real-world problems.
+Welcome to my GitHub repository. I am Ashitha, a dedicated and analytical-minded individual with a passion for extracting insights from complex datasets. As an aspiring data analyst, I bring a blend of technical expertise and strategic thinking to the table. With proficiency in programming languages such as Python and R, along with experience in data manipulation, statistical analysis, and machine learning techniques, I'm committed to delivering robust and impactful solutions. This repository serves as a showcase of my data projects, where each endeavor reflects my commitment to precision, innovation, and continuous learning.
 
 
 **PROJECT 1**
