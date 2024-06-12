@@ -224,6 +224,74 @@ The performance of each model is compared, and the best-performing model is iden
 
 The project demonstrates the application of various machine learning algorithms for predicting loan approval status. It highlights the importance of data preprocessing, exploratory data analysis, model selection, and evaluation in building a robust predictive model.
 
+---
+**PROJECT 4**
+
+**Fake News Detection**
+
+**Objective**
+
+The primary objective of this project is to develop a machine learning model capable of accurately detecting fake news articles. With the proliferation of misinformation and false information online, it's essential to create a reliable system that can distinguish between genuine and fabricated news content. By leveraging machine learning algorithms, the project aims to achieve accurate detection of fake news using a dataset of labeled news articles.
+
+**Dataset**
+
+The project utilizes two datasets:
+
+-  Fake.csv containing fake news articles.
+-  True.csv containing true news articles.
+
+**Data Preprocessing**
+
+The data preprocessing steps include:
+
+-  Merging the fake and true news datasets and adding a class label (0 for fake news, 1 for true news).
+-  Dropping irrelevant columns (title, subject, date) to focus on the text content and class label.
+-  Shuffling the merged dataset to ensure randomness.
+-  Cleaning the text data by:
+-      Converting text to lowercase.
+-      Removing special characters, URLs, and HTML tags.
+-      Removing punctuation and numerical values.
+
+**Model Training**
+
+The cleaned text data is split into training and testing sets using an 75-25 split. The TfidfVectorizer is used to convert the text data into numerical features suitable for model training.
+
+Four machine learning models are trained on the vectorized text data:
+
+-  Logistic Regression
+-  Decision Tree Classifier
+-  Gradient Boosting Classifier
+-  Random Forest Classifier
+
+**Model Evaluation**
+
+Each model is evaluated based on accuracy, precision, recall, and F1-score. The models are compared to determine the best performer.
+
+**Results**
+The performance of each model is evaluated based on accuracy, precision, recall, and F1-score. The results demonstrate that all models perform exceptionally well in distinguishing between fake and true news:
+
+-  Logistic Regression:
+-       Accuracy: 98.67%
+-       Precision, Recall, and F1-score: 0.99
+-  Decision Tree:
+-       Accuracy: 99.48%
+-       Precision, Recall, and F1-score: 1.00 (for the true news class)
+-  Gradient Boosting:
+-       Accuracy: 99.51%
+-       Precision and Recall: High values with an F1-score of 0.99
+-  Random Forest:
+-       Accuracy: 98.96%
+-       Precision, Recall, and F1-score: 0.99
+
+Ensemble models like Gradient Boosting and Decision Tree demonstrate superior performance due to their ability to handle complex data patterns effectively.
+
+**Manual Testing**
+
+A manual testing function is provided to predict the class of a given news article using all four trained models. This function cleans the input text, vectorizes it using the TfidfVectorizer, and outputs the predictions from each model.
+
+**Conclusion**
+
+This project successfully demonstrates the use of machine learning techniques to detect fake news with high accuracy. Ensemble models, in particular, show great promise in handling the complexities of text data, making them suitable for real-world applications in fake news detection.
 <!---
 ashithaninganagouda/ashithaninganagouda is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
