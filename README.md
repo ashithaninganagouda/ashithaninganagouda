@@ -248,9 +248,9 @@ The data preprocessing steps include:
 -  Dropping irrelevant columns (title, subject, date) to focus on the text content and class label.
 -  Shuffling the merged dataset to ensure randomness.
 -  Cleaning the text data by:
--      Converting text to lowercase.
--      Removing special characters, URLs, and HTML tags.
--      Removing punctuation and numerical values.
+      Converting text to lowercase.
+      Removing special characters, URLs, and HTML tags.
+      Removing punctuation and numerical values.
 
 **Model Training**
 
@@ -270,18 +270,26 @@ Each model is evaluated based on accuracy, precision, recall, and F1-score. The 
 **Results**
 The performance of each model is evaluated based on accuracy, precision, recall, and F1-score. The results demonstrate that all models perform exceptionally well in distinguishing between fake and true news:
 
--  Logistic Regression:
--       Accuracy: 98.67%
--       Precision, Recall, and F1-score: 0.99
--  Decision Tree:
--       Accuracy: 99.48%
--       Precision, Recall, and F1-score: 1.00 (for the true news class)
--  Gradient Boosting:
--       Accuracy: 99.51%
--       Precision and Recall: High values with an F1-score of 0.99
--  Random Forest:
--       Accuracy: 98.96%
--       Precision, Recall, and F1-score: 0.99
+Logistic Regression:
+
+-  Accuracy: 98.67%
+-  Precision, Recall, and F1-score: 0.99
+
+ Decision Tree:
+
+-  Accuracy: 99.48%
+-  Precision, Recall, and F1-score: 1.00 (for the true news class)
+
+Gradient Boosting:
+
+-  Accuracy: 99.51%
+-  Precision and Recall: High values with an F1-score of 0.99
+
+Random Forest:
+
+
+-  Accuracy: 98.96%
+-  Precision, Recall, and F1-score: 0.99
 
 Ensemble models like Gradient Boosting and Decision Tree demonstrate superior performance due to their ability to handle complex data patterns effectively.
 
